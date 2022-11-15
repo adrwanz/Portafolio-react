@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portafolio-react/static/css/main.83d814e7.css",
+    "main.js": "/Portafolio-react/static/js/main.125c48c2.js",
+    "static/media/about.jpg": "/Portafolio-react/static/media/about.0b032dc99b6febab497f.jpg",
+    "static/media/taller.jpg": "/Portafolio-react/static/media/taller.9470ab4b3cb370811381.jpg",
+    "static/media/tituloColegio.jpg": "/Portafolio-react/static/media/tituloColegio.f7c06a6d62bab8d8601f.jpg",
+    "static/media/profile.jpg": "/Portafolio-react/static/media/profile.3e98f2434861e59a2052.jpg",
+    "static/media/cqc.jpg": "/Portafolio-react/static/media/cqc.814f41ff1c5e4641b72d.jpg",
+    "index.html": "/Portafolio-react/index.html",
+    "main.83d814e7.css.map": "/Portafolio-react/static/css/main.83d814e7.css.map",
+    "main.125c48c2.js.map": "/Portafolio-react/static/js/main.125c48c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83d814e7.css",
+    "static/js/main.125c48c2.js"
+  ]
+}
