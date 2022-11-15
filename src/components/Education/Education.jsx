@@ -11,13 +11,13 @@ const Education = () => {
     }
   return (
    <section className="education section" id="education">
-    <h2 className="section__title">Educacion</h2>
+    <h2 className="section__title">Educación</h2>
 
     <div className="education__container container grid">
         <div className="education__content">
             <div>
             <i class='bx bxs-graduation education__icon'></i>
-                <h3 className="education_title">Tecnico <br /> Electromecanico</h3>
+                <h3 className="education_title">Técnico <br /> Electromecánico</h3>
             </div>
 
             <span className="education__button" onClick={() => toggleTab(1)}>Ver más
@@ -37,7 +37,7 @@ const Education = () => {
         <div className="education__content">
             <div>
             <i class='bx bxs-graduation education__icon'></i>
-                <h3 className="education_title">Tegnología <br /> Electrónica</h3>
+                <h3 className="education_title">Tecnología <br /> Electrónica</h3>
             </div>
 
             <span onClick={() => toggleTab(2)} className="education__button">Ver más
