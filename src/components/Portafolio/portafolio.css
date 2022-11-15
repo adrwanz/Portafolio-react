@@ -1,0 +1,71 @@
+.portafolio__section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+}
+
+.portafolio__container {
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+    justify-items: center;
+   
+   
+}
+
+.portafolio__container-total {
+    width: 250px;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 1.5rem;
+    background-color: var(--comtainer-color);
+    padding: 4rem 1rem 2rem 2.5rem;
+}
+
+.portafolio__img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.portafolio__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portafolio__description {
+    font-size:var(--small-font-size) ;
+}
+
+/* Breakpoints */
+/* For large devices */
+@media screen and (max-width: 992px){
+    .portafolio__img {
+        width: 150px;
+        height: 150px;
+    }
+    
+  }
+  
+  /* For medium devices */
+  @media screen  and (max-width: 768px){
+    .portafolio__container {
+        grid-template-columns: repeat(2 ,200px);
+    }
+
+    .portafolio__container-total {
+        width: 150px;
+    }
+    
+    .portafolio__img {
+        width: 100px;
+        height: 100px;
+    }
+      
+  }
+  
+  @media screen and (max-width: 576px) {
+    .portafolio__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
